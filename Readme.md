@@ -6,9 +6,14 @@ This is the repository that contains the beta VIs for Phoenix Pro in LabVIEW.
 To install the required VIs onto your development computer, perform the following steps:
  1. Download this repository (either by cloning or downloading as a zip via the green Code button in the upper right).
  2. Move this repository to your documents folder (or somewhere that won't get cleaned, so away from Downloads).
- 3. Move the PhoenixToolsVIs from this directory to LabVIEW's user.lib's directory (commonly found at C:\Program Files (x86)\National Instruments\LabVIEW 2020\user.lib)
- 4. You should be able to drag and drop the VIs into your LabVIEW project (VI palette is not supported in beta).
- 
+ 3. Move the PhoenixToolsVIs from this directory to LabVIEW's user.lib's directory (commonly found at C:\Program Files (x86)\National Instruments\LabVIEW 2020\user.lib).
+ 4. Rename the copied PhoenixToolsVIs directory to CTRE_PhoenixTools.
+ 5. You should be able to drag and drop the VIs into your LabVIEW project (VI palette is not supported in beta).
+
+### Phoenix Install on roboRIO
+In addition to locally installing the VIs onto your development computer, you will also need to install the Phoenix Libraries to the roboRIO.
+This is done through Tuner v1, installed through the Phoenix Installer, by clicking the "Install Phoenix for LabVIEW" button.
+
 ## Usage
 This library is primarily accessed by a few common VIs across all devices.
 
