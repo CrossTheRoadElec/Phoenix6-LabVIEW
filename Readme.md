@@ -12,7 +12,7 @@ To install the required VIs onto your development computer, perform the followin
 
 ### Phoenix Install on roboRIO
 In addition to locally installing the VIs onto your development computer, you will also need to install the Phoenix Libraries to the roboRIO.
-This is done through Tuner v1, installed through the Phoenix Installer, by clicking the "Install Phoenix for LabVIEW" button.
+This is done through Tuner v1, installed through the [Phoenix Framework Installer](https://store.ctr-electronics.com/software/), by clicking the "Install Phoenix for LabVIEW" button.
 
 ## Usage
 This library is primarily accessed by a few common VIs across all devices.
