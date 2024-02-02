@@ -6,7 +6,8 @@ This is the repository that contains the beta VIs for Phoenix 6 in LabVIEW.
 To install the required VIs onto your development computer, perform the following steps:
  1. Download this repository (either by cloning or downloading as a zip via the green Code button in the upper right).
  2. Move this repository to the LabVIEW "ThirdParty/Phoenix6" folder (typically at `C:\Program Files (x86)\National Instruments\LabVIEW 2023\vi.lib\Rock Robotics\WPI\ThirdParty\Phoenix6`)
- 3. You should be able to drag and drop the VIs into your LabVIEW project (VI palette is not supported in beta).
+ 3. Move the `dir.mnu` file from "Menu Files/Top Level" into LabVIEW's "ThirdParty/TopLevel/Phoenix6" folder (Typically at `C:\Program Files (x86)\National Instruments\LabVIEW 2023\vi.lib\Rock Robotics\WPI\ThirdParty\TopLevel\Phoenix6`)
+ 4. Restart LabVIEW and there should now be a Phoenix6 palette under WPILib->Thirdparty with all the VIs for use.
 
 ### Phoenix Install on roboRIO
 In addition to locally installing the VIs onto your development computer, you will also need to install the Phoenix Libraries to the roboRIO.
