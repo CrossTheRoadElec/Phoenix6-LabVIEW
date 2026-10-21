@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Phoenix 6 does not support LabVIEW for Systemcore. This repository is provided as-is and without support for use with legacy roboRIO based FRC robots.
+
 # Phoenix 6 for LabVIEW Beta
 
 This is the repository that contains the beta VIs for Phoenix 6 in LabVIEW.
